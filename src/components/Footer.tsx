@@ -9,16 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-4">
+            <Link href="/" className="block mb-4">
               <img
-                src={`${basePath}/images/logo.png`}
+                src={`${basePath}/images/logo-horiz-sm.png`}
                 alt="Cardonal Construction"
-                className="h-11 w-auto brightness-200"
-              />
-              <img
-                src={`${basePath}/images/cc-only-sm.png`}
-                alt="Cardonal Construction"
-                className="h-9 w-auto brightness-200"
+                className="h-14 w-auto"
               />
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed mt-4">
