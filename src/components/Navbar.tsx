@@ -60,7 +60,7 @@ export default function Navbar() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-3"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
@@ -97,7 +97,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className={`block py-3 px-2 text-sm font-medium ${
+                className={`block py-3.5 px-4 text-base font-medium ${
                   pathname === link.href
                     ? "text-blue-accent"
                     : "text-gray-dark"
@@ -109,7 +109,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="block mt-2 bg-navy text-white px-5 py-2.5 rounded text-sm font-medium text-center"
+              className="block mt-2 bg-navy text-white px-5 py-3.5 rounded text-base font-medium text-center"
             >
               Get a Quote
             </Link>

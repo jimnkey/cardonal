@@ -93,7 +93,7 @@ export default function ProjectsPage() {
           <p className="text-blue-300 text-sm font-medium tracking-widest uppercase mb-2">
             Our Portfolio
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold">Our Projects</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Our Projects</h1>
           <p className="text-xl text-gray-300 mt-4 max-w-2xl">
             Explore our portfolio of completed projects spanning residential,
             commercial, and renovation work.
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
       {/* Filter Tabs */}
       <section className="border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex gap-8 overflow-x-auto py-4">
+          <div className="flex gap-4 sm:gap-6 md:gap-8 overflow-x-auto py-4">
             {categories.map((cat) => (
               <button
                 key={cat}

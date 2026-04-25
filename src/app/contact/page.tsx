@@ -118,7 +118,7 @@ export default function ContactPage() {
           <p className="text-blue-300 text-sm font-medium tracking-widest uppercase mb-2">
             Contact Us
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold">Get In Touch</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Get In Touch</h1>
           <p className="text-xl text-gray-300 mt-4 max-w-2xl">
             Ready to start your project? We&apos;d love to hear from you.
             Reach out for a free consultation and estimate.
@@ -127,9 +127,9 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Content */}
-      <section className="py-20">
+      <section className="py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16">
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold text-navy mb-6">
@@ -301,7 +301,7 @@ export default function ContactPage() {
               </div>
 
               {/* Map Placeholder */}
-              <div className="mt-10 bg-gray-light rounded-lg aspect-square flex items-center justify-center">
+              <div className="mt-10 bg-gray-light rounded-lg aspect-video md:aspect-square flex items-center justify-center">
                 <div className="text-center">
                   <svg
                     className="w-12 h-12 mx-auto text-navy/20 mb-3"

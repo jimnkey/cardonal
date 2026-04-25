@@ -122,7 +122,7 @@ export default function AboutPage() {
           <p className="text-blue-300 text-sm font-medium tracking-widest uppercase mb-2">
             About Us
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold">Our Story</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Our Story</h1>
           <p className="text-xl text-gray-300 mt-4 max-w-2xl">
             Founded on a passion for quality construction and a commitment to
             our clients&apos; success.
@@ -133,7 +133,7 @@ export default function AboutPage() {
       {/* Story Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <h2 className="text-3xl font-bold text-navy mb-6">
                 Building Excellence Since Day One
@@ -217,7 +217,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member) => (
               <div key={member.name} className="text-center">
-                <div className="w-32 h-32 bg-gray-light rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-gray-light rounded-full mx-auto mb-4 flex items-center justify-center">
                   <svg
                     className="w-12 h-12 text-navy/20"
                     fill="none"

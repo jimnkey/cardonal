@@ -187,7 +187,7 @@ export default function ServicesPage() {
           <p className="text-blue-300 text-sm font-medium tracking-widest uppercase mb-2">
             Our Services
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold">What We Build</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">What We Build</h1>
           <p className="text-xl text-gray-300 mt-4 max-w-2xl">
             Comprehensive construction services from concept to completion.
             Whatever you&apos;re building, we have the expertise to deliver.
@@ -202,7 +202,7 @@ export default function ServicesPage() {
             {services.map((service, index) => (
               <div
                 key={service.title}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${
                   index % 2 === 1 ? "lg:direction-rtl" : ""
                 }`}
               >

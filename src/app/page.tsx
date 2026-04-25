@@ -162,16 +162,16 @@ export default function Home() {
             }}
           />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 md:py-40">
           <div className="max-w-3xl">
             <p className="text-blue-300 text-sm font-medium tracking-widest uppercase mb-4">
               Building Excellence
             </p>
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-6">
               We Build Your{" "}
               <span className="text-blue-300">Vision</span> Into Reality
             </h1>
-            <p className="text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl">
+            <p className="text-base sm:text-xl text-gray-300 leading-relaxed mb-8 sm:mb-10 max-w-2xl">
               From concept to completion, Cardonal Construction delivers
               exceptional quality in every project. Residential, commercial, and
               renovation services you can trust.
@@ -218,7 +218,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="bg-gray-light py-20 md:py-28">
+      <section className="bg-gray-light py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-blue-accent text-sm font-medium tracking-widest uppercase mb-2">
@@ -262,7 +262,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-20 md:py-28">
+      <section className="py-12 md:py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-blue-accent text-sm font-medium tracking-widest uppercase mb-2">
