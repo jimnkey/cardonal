@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Footer() {
   return (
     <footer className="bg-navy text-white">
@@ -9,7 +11,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <img
-                src="/images/logo.png"
+                src={`${basePath}/images/logo.png`}
                 alt="Cardonal Construction"
                 className="h-11 w-auto brightness-200"
               />

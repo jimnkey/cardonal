@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -23,12 +24,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/images/logo.png"
+              src={`${basePath}/images/logo.png`}
               alt="Cardonal Construction"
               className="h-12 w-auto"
             />
             <img
-              src="/images/cc-text.png"
+              src={`${basePath}/images/cc-text.png`}
               alt="Cardonal Construction"
               className="hidden sm:block h-10 w-auto"
             />

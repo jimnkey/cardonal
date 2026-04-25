@@ -163,7 +163,7 @@ export default function AboutPage() {
             </div>
             <div className="bg-gray-light rounded-lg aspect-[4/3] flex items-center justify-center p-8">
               <img
-                src="/images/cc-logo-600.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/cc-logo-600.png`}
                 alt="Cardonal Construction"
                 className="max-w-full max-h-full object-contain"
               />
