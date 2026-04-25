@@ -29,7 +29,7 @@ export default function Navbar() {
               className="h-12 w-auto"
             />
             <img
-              src={`${basePath}/images/cc-text.png`}
+              src={`${basePath}/images/cc-only-sm.png`}
               alt="Cardonal Construction"
               className="hidden sm:block h-10 w-auto"
             />

@@ -15,14 +15,11 @@ export default function Footer() {
                 alt="Cardonal Construction"
                 className="h-11 w-auto brightness-200"
               />
-              <div>
-                <span className="text-lg font-bold tracking-wide">
-                  CARDONAL
-                </span>
-                <span className="block text-xs tracking-[0.25em] text-gray-300 -mt-1">
-                  CONSTRUCTION
-                </span>
-              </div>
+              <img
+                src={`${basePath}/images/cc-only-sm.png`}
+                alt="Cardonal Construction"
+                className="h-9 w-auto brightness-200"
+              />
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed mt-4">
               Building excellence since day one. Quality construction services
